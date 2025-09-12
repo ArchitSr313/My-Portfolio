@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archit's - Portfolio</title>
+  <link rel="icon" href="./assets/images/a_logo.png" type="image/png">
+  <link rel="stylesheet" href="/styles/output.css">
+  <link rel="stylesheet" href="/styles/input.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans bg-gray-800 text-white">
+  <header>
+    <nav class="flex justify-around items-center w-[100vw] h-20 bg-gray-900 shadow-2xl">
+      <div class="flex items-center">
+        <svg  width="60px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 21.331 21.331" 
+        xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" 
+        stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" 
+        stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> 
+        <g> <path style="fill:#FFD700" d="M10.19,11.288c0.75-0.038,2.656-0.197,2.656-0.197V7.724l-2.856,3.21 C9.99,10.935,9.435,11.325,10.19,11.288z M18.731,9.943c0,0-0.75-0.594-0.712-2.734C18.058,5.068,18.1,3.246,18.1,3.246 s-0.318-5.944-5.985-1.744L2.843,12.321c0,0-3.289,5.15,3.568,6.417c1.743-0.118,3.446-1.188,4.595,0.753 c0.436,0.753,2.021,3.014,5.547,1.072c0.517-0.398,1.229-1.19,1.267-3.369c0.081-0.832-0.081-4.984,0.912-5.048 C18.731,12.146,19.96,10.695,18.731,9.943z M16.411,11.489c-0.854,0.109-1.179,0.217-1.268,0.198c0,0.527,0.039,4.922,0.039,6.299 c-1.229,1.349-2.496,0-2.496,0s-0.077-3.369-0.038-5.759c-4.56,0.529-6.34,2.946-6.739,3.303c-0.475,0.197-1.03-0.239-1.03-0.239 c-0.555-0.157,0-0.99,0-0.99l8.362-9.906c1.585-1.149,1.783,0.514,1.783,0.514v6.181c0,0,0.633,0,1.345-0.038 C17.085,11.288,16.411,11.489,16.411,11.489z"></path> </g> </g></svg>
+        <div class="left text-2xl">rchit's Portfolio</div>
+      </div>
+      <div class="right">
+        <ul class="flex">
+          <li class="mx-5 hover:text-[#FFD700] hover:underline underline-offset-2">
+            <a href="#home">Home</a>
+          </li>
+          <li class="mx-5 hover:text-[#FFD700] hover:underline underline-offset-2">
+            <a href="#about">About</a>
+          </li>
+          <li class="mx-5 hover:text-[#FFD700] hover:underline underline-offset-2">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="mx-5 hover:text-[#FFD700] hover:underline underline-offset-2">
+            <a href="#projects">Portfolio</a>
+          </li>
+          <li class="mx-5 hover:text-[#FFD700] hover:underline underline-offset-2">
+            <a href="#blogs">Blogs</a>
+          </li>
+          <li class="mx-5 hover:text-[#FFD700] hover:underline underline-offset-2">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <section class="flex justify-around my-20" id="home">
+    <!-- left section -->
+    <div class="mt-20 text-5xl">
+        Hi, My Name is <span class="text-yellow-300">Archit</span>
+      <div>and I am an Aspiring</div>
+      <span id="element" class="text-yellow-400"></span>
+      <div class="flex py-4 text-sm">
+        <a href="./assets/files/Archit Srivastava Resume New 4.pdf" 
+        class=" text-black bg-white p-2 rounded-2xl font-bold" 
+        download="Archit_Srivastava_Resume.pdf">
+          Download Resume
+        </a>
+        <a href="https://github.com/ArchitSr313" class=" bg-black p-2 rounded-2xl ml-4 font-bold">
+          View Github
+        </a>
+      </div>
+    </div>
+    <!-- right section -->
+    <div class="main-right w-4/12">
+      <img src="./assets/images/developer.png" alt="developer_img">
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="max-w-[80vw] m-auto my-10" id="about">
+    <h2 class="text-3xl font-bold text-center mb-6">About Me</h2>
+    <div class="p-4 bg-gray-700 rounded-2xl shadow-2xl my-6">
+      <p class="text-xl">I'm a passionate <strong>Web Developer</strong> with experience in building web applications and 
+        solving real-world problems. I love exploring new technologies and improving my knowledge to make an 
+        impact. I'm also doing <strong>Competitive Programming</strong> and <strong>Open Source Contributions
+        </strong>. My coursework includes <strong>Data Structures & Algorithms, Operating Systems, Computer Networks, 
+          Object Oriented Programming, Software Engineering.</strong>
+      </p>
+    </div>
+  </section>
+
+   <!-- My Education Section -->
+  <section class="max-w-[80vw] py-20 m-auto my-10 flex flex-col items-center" id="education">
+  <h2 class="text-3xl font-bold text-center mb-12">My Education</h2>
+  <div class="flex flex-col sm:flex-row items-center gap-10 relative">
+    <!-- Timeline Line -->
+    <div class="absolute top-2.5 bottom-0 w-full h-0.5 left-1/2 bg-white opacity-70 sm:block transform -translate-x-1/2"></div>
+
+    <!-- Each Item -->
+    <div class="flex flex-col items-center text-center relative">
+      <div class="w-0.5 h-14 bg-white"></div>
+      <div class="w-4 h-4 bg-white rounded-full border-2 border-white"></div>
+      <p class="mt-4 text-xl">🏫</p>
+      <p class="font-semibold">Class X (2016 - 17)</p>
+      <p class="text-gray-500">Sri Raghukul Vidyapeeth, Gonda</p>
+    </div>
+
+    <div class="flex flex-col items-center text-center relative">
+      <div class="w-0.5 h-14 bg-white"></div>
+      <div class="w-4 h-4 bg-white rounded-full border-2 border-white"></div>
+      <p class="mt-4 text-xl">🏫</p>
+      <p class="font-semibold">Class XII (2018 - 19)</p>
+      <p class="text-gray-500">Sri Raghukul Vidyapeeth, Gonda</p>
+    </div>
+
+    <div class="flex flex-col items-center text-center relative top-2.5">
+      <div class="w-0.5 h-14 bg-white"></div>
+      <div class="w-4 h-4 bg-white rounded-full border-2 border-white"></div>
+      <p class="mt-4 text-xl">🎓</p>
+      <p class="font-semibold">Diploma (2019 - 22)</p>
+      <p class="text-gray-600">Information Technology</p>
+      <p class="text-gray-500">Govt. Polytechnic, Lucknow</p>
+    </div>
+
+    <div class="flex flex-col items-center text-center relative top-2.5">
+      <div class="w-0.5 h-14 bg-white"></div>
+      <div class="w-4 h-4 bg-white rounded-full border-2 border-white"></div>
+      <p class="mt-4 text-xl">🎓</p>
+      <p class="font-semibold">B.Tech (2022 - 25)</p>
+      <p class="text-gray-600">Information Technology</p>
+      <p class="text-gray-500">BIET, Jhansi</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+   <!-- My Skills Section -->
+   <section class="max-w-[80vw] m-auto my-10" id="skills">
+    <h2 class="text-3xl font-bold text-center mb-6">My Skills</h2>
+    <div class="skills-div flex flex-col">
+      <div class="flex justify-evenly px-4 pt-10 pb-4">
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/html.png" alt="html">
+          </div>
+          <p class="font-medium mt-2">HTML</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/css_png.png" alt="css">
+          </div>
+          <p class="font-medium mt-2">CSS</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/js.png" alt="js">
+          </div>
+          <p class="font-medium mt-2">JavaScript</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/react.png" alt="react">
+          </div>
+          <p class="font-medium mt-2">React</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/icons8-tailwindcss-48.png" alt="tailwind">
+          </div>
+          <p class="font-medium mt-2">Tailwind</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/redux-logo.png" alt="redux-logo">
+          </div>
+          <p class="font-medium mt-2">Redux</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/icons8-bootstrap-48.png" alt="bootstap">
+          </div>
+          <p class="font-medium mt-2">BootStrap</p>
+        </div>
+      </div>
+      <div class="flex justify-evenly px-4 pt-4 pb-10">
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/c++.png" alt="c++">
+          </div>
+          <p class="font-medium mt-2">C++</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/icons8-nodejs-48.png" alt="node">
+          </div>
+          <p class="font-medium mt-2">Node.js</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/icons8-mongo-db-48.png" alt="mongo">
+          </div>
+          <p class="font-medium mt-2">MongoDB</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-14" src="./assets/images/express-js.png" alt="express">
+          </div>
+          <p class="font-medium mt-2">Express.js</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/icons8-sql-48.png" alt="sql">
+          </div>
+          <p class="font-medium mt-2">SQL</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/jest.png" alt="jest">
+          </div>
+          <p class="font-medium mt-2">Jest</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <div class="bg-gray-100 h-19 w-19 rounded-full flex items-center justify-center">
+            <img class="w-12" src="./assets/images/my_sql.png" alt="mysql">
+          </div>
+          <p class="font-medium mt-2">MySQL</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="max-w-[80vw] m-auto my-10" id="projects">
+    <h2 class="text-3xl font-bold text-center mb-6">My Projects</h2>
+    <div class="projects p-4 flex flex-col gap-6">
+    <!-- Project 1 -->
+      <div class="project-container flex p-4 justify-evenly">
+        <div class="project-info flex flex-col gap-4 w-4/12 justify-center">
+            <div class="flex gap-4 text-3xl">
+              <h3>UrbanNest</h3>
+              <a href="https://github.com/ArchitSr313/UrbanNest"><i class="fa-brands fa-github"></i></a>
+              <a href="https://urbannest-ltzt.onrender.com/listings"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <p>A Vacation Rentals Listing Web Application</p>
+            <div class="">
+              <ul class="flex flex-wrap gap-2 text-sm">
+                <li class="border border-black bg-black px-2 py-1 rounded-xl">HTML</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">CSS</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">JavaScript</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">BootStrap</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">Node.js</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">Express.js</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">MongoDB</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">Cloudinary</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">Mongo ATLAS</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">Passport.js</li>
+              </ul>
+            </div>
+        </div>
+        <div class="project-img w-6/12">
+          <img class="w-full border border-white border-8 rounded-2xl" src="./assets/images/urbanest_bg.png" alt="urbanest_img">
+        </div>
+      </div>
+    <!-- Project 2 -->
+      <div class="project-container flex p-4 justify-evenly">
+        <div class="project-img w-6/12">
+          <img class="w-full border border-white border-8 rounded-2xl" src="./assets/images/food_app.png" alt="urbanest_img">
+        </div>
+        <div class="project-info flex flex-col gap-4 w-4/12 justify-center">
+            <div class="flex gap-4 text-3xl">
+              <h3>Dream Platter</h3>
+              <a href="https://github.com/ArchitSr313/FoodApp"><i class="fa-brands fa-github"></i></a> 
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <p>A Restaurant Listing Web Application</p>
+            <div class="">
+              <ul class="flex flex-wrap gap-2 text-sm">
+                <li class="border border-black bg-black p-1 rounded-2xl">React.js</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">Redux.js</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">Jest</li>
+                <li class="border border-black bg-black px-2 py-1 rounded-xl">HTML</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">CSS</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">JavaScript</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">Tailwind CSS</li>
+                <li class="border border-black bg-black p-1 rounded-2xl">Node.js</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Blogs Section --> 
+<section class="max-w-[80vw] m-auto my-10" id="blogs">
+  <h2 class="text-3xl font-bold text-center mb-6">My Blogs</h2>
+  <div id="medium-articles" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <p class="loading-text">Loading articles...</p>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section class="max-w-[80vw] m-auto my-10" id="contact">
+    <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+    <div class="">
+      <form action="https://api.web3forms.com/submit" method="post" class="flex flex-col p-4">
+        <div class="flex flex-col justify-center items-center">
+          <input type="hidden" name="access_key" value="7f3f8c46-e4bd-4088-ac76-6295b29f164f">
+          <input class="border border-white rounded-xl mb-4 mt-1 p-2 w-6/12" 
+          type="text" id="name" name="name" 
+          placeholder="Enter Your Name"
+          required>
+          <input class="border border-white rounded-xl mb-4 mt-1 p-2 w-6/12" 
+          type="email" 
+          id="email" 
+          placeholder="Enter Your Email"
+          name="email" 
+          required>
+          <textarea class="border border-white rounded-xl mb-4 mt-1 p-2 w-6/12" 
+          id="message" 
+          name="message" 
+          placeholder="Enter Your Message"
+          required></textarea>
+        </div>
+        <div class="flex justify-center items-center">
+          <button class="border border-black bg-black rounded-xl py-0.5 px-2 hover:bg-[#ffd700] hover:text-black" 
+          type="submit">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="flex flex-col justify-center items-center shadow-2xl">
+    <div class="text-3xl flex gap-4 p-4">
+        <a href="https://www.linkedin.com/in/architsr">
+          <i class="fa-brands fa-linkedin text-blue-700 hover:text-white"></i>
+        </a>
+        <a href="https://www.instagram.com/ayush15.unofficial/">
+          <i class="fa-brands fa-square-instagram text-[#ff0289] hover:text-white"></i>
+        </a>
+        <a href="https://x.com/imarchitsr">
+          <i class="fa-brands fa-twitter text-blue-400 hover:text-white"></i>
+        </a>
+        <a href="https://wa.me/919369592385">
+          <i class="fa-brands fa-square-whatsapp text-green-400 hover:text-white"></i>
+        </a>
+        <a href="https://medium.com/@iamarchit.sr">
+          <i class="fa-brands fa-medium text-yellow-600 hover:text-white"></i>
+        </a>
+        <a href="https://github.com/ArchitSr313">
+          <i class="fa-brands fa-github text-orange-700 hover:text-white"></i>
+        </a>
+    </div>
+    <p class="text-lg font-medium p-4 mb-4">Made with ❤️ by @Archit Srivastava</p>
+  </footer>
+
+  <script src="/scripts/script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Full Stack Developer', 'Web Designer','Graphic Designer', 'Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
